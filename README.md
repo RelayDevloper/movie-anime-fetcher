@@ -42,7 +42,7 @@
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-anime-fetcher.git
+git clone https://github.com/RelayDevloper/movie-anime-fetcher.git
 cd movie-anime-fetcher
 ```
 
