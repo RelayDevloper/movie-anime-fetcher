@@ -36,7 +36,6 @@
 
 ---
 
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -57,7 +56,9 @@ npm install
 * Visit: [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
 * Create a free API key
 
-### 4️⃣ Create `.env` File
+### 4️⃣ Add your TMDB API Key
+
+Open the existing `.env` file in the project root and add your TMDB API key:
 
 ```env
 TMDB_API_KEY=your_api_key_here
@@ -82,9 +83,7 @@ node server.js
 
 ---
 
-## 🖼️ UI Preview (Optional)
-
-> Add screenshots or GIFs here to showcase the UI
+## 🖼️ UI Preview
 
 ---
 
