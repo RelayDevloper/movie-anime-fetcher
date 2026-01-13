@@ -48,7 +48,7 @@ cd movie-anime-fetcher
 ### 2️⃣ Install Dependencies
 
 ```bash
-npm install
+npm install express dotenv node-fetch
 ```
 
 ### 3️⃣ Get TMDB API Key
