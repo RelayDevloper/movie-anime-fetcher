@@ -36,14 +36,6 @@
 
 ---
 
------|------|
-| Backend | Node.js, Express |
-| APIs | TMDB (Movies), Jikan (Anime) |
-| Frontend | HTML, CSS, JavaScript |
-| Styling | Modern CSS, Glassmorphism |
-| Fonts | Google Fonts (Inter) |
-
----
 
 ## ⚙️ Installation & Setup
 
