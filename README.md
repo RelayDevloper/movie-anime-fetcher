@@ -17,7 +17,7 @@
 * 🔍 Search movies & anime by title
 * 🔁 Toggle between **Movie** and **Anime** modes
 * ⚡ Async/Await API fetching
-* 🖼️ Poster images, title, year, rating & description
+* 🖼️ Poster images, title, year, rating & description — includes extra metadata like votes, episodes, type, status, and genres
 * 🌙 Dark UI with glassmorphism cards
 * 🎨 Smooth hover animations
 * 📱 Fully responsive (mobile & desktop)
@@ -48,7 +48,7 @@ cd movie-anime-fetcher
 ### 2️⃣ Install Dependencies
 
 ```bash
-npm install express dotenv node-fetch
+npm install
 ```
 
 ### 3️⃣ Get TMDB API Key

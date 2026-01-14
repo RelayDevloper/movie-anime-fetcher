@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Movie & Anime Fetcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Movie & Anime Fetcher</h1>
+        <p class="subtitle">Search movies or anime — powered by TMDB & Jikan</p>
+      </header>
+
+      <section class="controls">
+        <form id="searchForm" class="search-form">
+          <input id="queryInput" type="search" placeholder="Search title..." aria-label="Search" required />
+          <button type="submit" class="btn">Search</button>
+        </form>
+
+        <div class="toggle">
+          <label class="switch">
+            <input type="checkbox" id="toggleType" />
+            <span class="slider"></span>
+          </label>
+          <span id="toggleLabel">Movie</span>
+        </div>
+      </section>
+
+      <section id="status" class="status"></section>
+
+      <section id="results" class="results-grid"></section>
+
+      <footer class="footer">Dark UI • Glassmorphism • Inter</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
