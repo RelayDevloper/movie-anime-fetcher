@@ -84,7 +84,8 @@ node server.js
 ---
 
 ## 🖼️ UI Preview
-
+<p align="center">
+   <img src="Screenshot 2026-01-14 145336.png" />
 ---
 
 ## 🧠 Learning Highlights
